@@ -16,7 +16,6 @@ class activity_registro : AppCompatActivity() {
     private lateinit var confirmaContraseña : EditText
     private lateinit var boton : Button
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registro2)
@@ -42,7 +41,6 @@ class activity_registro : AppCompatActivity() {
                         Toast.makeText(applicationContext, "Felicidades, ha sido registrado" , Toast.LENGTH_LONG).show()
                         startActivity(Intent(this, InicioActivity::class.java))
                     }
-
             }else{
                 Toast.makeText(applicationContext, "No ha llenado todos los campos" , Toast.LENGTH_LONG).show()
             }

@@ -1,12 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">ProyectoBedu</string>
-    <string name="name">Name</string>
-    <string name="last_name">Last name</string>
-    <string name="phone">Phone</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
-    <string name="confirm_password">Comfirm password</string>
-    <string name="message">Here will be a list of the products</string>
+    <string name="name">Nombre</string>
+    <string name="last_name">Apellidos</string>
+    <string name="phone">Teléfono</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="message">Aquí se pondrá una lista de los productos de la tienda</string>
     <string name="title_activity_registro">Leanback Title</string>
     <string name="browse_title">Videos by Your Company</string>
     <string name="related_movies">Related Videos</string>
@@ -21,8 +21,9 @@
     <string name="buy_2">AT $9.99</string>
     <string name="movie">Movie</string>
 
-
     <!-- Error messages -->
-    <string name="error_fragment_message">An error occurred</string>
-    <string name="dismiss_error">Dismiss</string>
+    <string name="error_fragment_message">Ocurrio un error</string>
+    <string name="dismiss_error">Descartar</string>
+
+
 </resources>
