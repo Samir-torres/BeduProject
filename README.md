@@ -7,7 +7,7 @@ El proyecto consta de cinco pantallas que son la primera interacción con los us
 Es la primera fase de la aplicación para la compra de procutos en una tienda de abarrotes.
 
 ### Screenshot
-![Pantalla principal de la app](https://github.com/Samir-torres/BeduProject/blob/master/ProyectoBedu.png)
+![Pantalla principal de la app](https://github.com/Samir-torres/BeduProject/blob/master/ProyectoBedu.PNG)
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
