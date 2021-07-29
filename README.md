@@ -12,10 +12,10 @@ Es la primera fase de la aplicación para la compra de procutos en una tienda de
 
 ##Instalación 
 
-* **Clona el repo 
+* Clona el repo 
 
 ```
-$https://github.com/Samir-torres/BeduProject.git
+https://github.com/Samir-torres/BeduProject.git
 ```
 
 
