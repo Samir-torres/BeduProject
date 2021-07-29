@@ -10,7 +10,7 @@ Es la primera fase de la aplicación para la compra de procutos en una tienda de
 ![Pantalla principal de la app](https://github.com/Samir-torres/BeduProject/blob/master/Proyecto-Bedu.PNG)
 
 
-##Instalación 
+## Instalación 
 
 * Clona el repo 
 
