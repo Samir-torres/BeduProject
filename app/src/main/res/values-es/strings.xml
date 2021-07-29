@@ -12,6 +12,8 @@
     <string name="welcome_act_inicio">Bienvenido</string>
     <string name="enter">Ingresar</string>
     <string name="bnt_register_r2">Registrar</string>
+    <string name="forgotpassword">¿Has olvidado tu contraseña?</string>
+    <string name="enter_email">Ingresa tu correo electronico</string>
 
 
     <!-- Error messages -->

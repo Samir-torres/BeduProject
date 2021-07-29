@@ -20,7 +20,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoBedu">
-        <activity android:name=".TiendaActivity"></activity>
+        <activity android:name=".ActivityForgotPass"></activity>
+        <activity android:name=".TiendaActivity" />
         <activity android:name=".InicioActivity" />
         <activity android:name=".activity_registro" />
         <activity android:name=".MainActivity">
