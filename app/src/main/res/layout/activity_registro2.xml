@@ -40,7 +40,7 @@
         android:drawableLeft="@drawable/email"
         android:drawablePadding="12dp"
         android:hint="@string/email"
-        android:inputType="text" />
+        android:inputType="textEmailAddress" />
 
     <EditText
         android:id="@+id/password"
@@ -66,7 +66,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Registrarse"
+        android:text="@string/bnt_register_r2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

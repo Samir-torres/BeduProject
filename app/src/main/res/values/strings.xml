@@ -7,19 +7,12 @@
     <string name="password">Password</string>
     <string name="confirm_password">Comfirm password</string>
     <string name="message">Here will be a list of the products</string>
-    <string name="title_activity_registro">Leanback Title</string>
-    <string name="browse_title">Videos by Your Company</string>
-    <string name="related_movies">Related Videos</string>
-    <string name="grid_view">Grid View</string>
-    <string name="error_fragment">Error Fragment</string>
-    <string name="personal_settings">Personal Settings</string>
-    <string name="watch_trailer_1">Watch trailer</string>
-    <string name="watch_trailer_2">FREE</string>
-    <string name="rent_1">Rent By Day</string>
-    <string name="rent_2">From $1.99</string>
-    <string name="buy_1">Buy and Own</string>
-    <string name="buy_2">AT $9.99</string>
-    <string name="movie">Movie</string>
+    <string name="btn_signup">Sign up</string>
+    <string name="btn_register">Register</string>
+    <string name="welcome_act_inicio">Welcome</string>
+    <string name="enter">Enter</string>
+    <string name="bnt_register_r2">Register</string>
+
 
 
     <!-- Error messages -->

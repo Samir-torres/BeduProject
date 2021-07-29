@@ -11,11 +11,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bienvenido"
+        android:text="@string/welcome_act_inicio"
         android:textSize="30dp" />
 
     <EditText
-
         android:id="@+id/name"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
@@ -25,7 +24,6 @@
         android:drawablePadding="12dp"
         android:hint="@string/name"
         android:inputType="text" />
-
 
     <EditText
         android:id="@+id/password"
@@ -37,16 +35,14 @@
         android:hint="@string/password"
         android:inputType="textPassword" />
 
-
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Entrar"
+        android:text="@string/enter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
 </LinearLayout>
