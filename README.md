@@ -9,6 +9,16 @@ Es la primera fase de la aplicación para la compra de procutos en una tienda de
 ### Screenshot
 ![Pantalla principal de la app](https://github.com/Samir-torres/BeduProject/blob/master/Proyecto-Bedu.PNG)
 
+
+##Instalación 
+
+* **Clona el repo 
+
+```
+$https://github.com/Samir-torres/BeduProject.git
+```
+
+
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
 Mira **Deployment** para conocer como desplegar el proyecto.
