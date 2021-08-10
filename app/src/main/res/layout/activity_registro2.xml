@@ -49,6 +49,7 @@
         android:layout_marginHorizontal="24dp"
         android:layout_marginTop="24dp"
         android:drawablePadding="12dp"
+        android:drawableLeft="@drawable/lock"
         android:hint="@string/password"
         android:inputType="textPassword" />
 
@@ -60,6 +61,7 @@
         android:layout_marginTop="24dp"
         android:drawablePadding="12dp"
         android:hint="@string/confirm_password"
+        android:drawableLeft="@drawable/lock"
         android:inputType="textPassword" />
 
     <Button
