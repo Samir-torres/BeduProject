@@ -5,10 +5,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.RatingBar
 import android.widget.TextView
 import androidx.fragment.app.Fragment
+import kotlinx.android.synthetic.main.fragment_detail.view.*
 
 class DetailFragment : Fragment() {
 
@@ -17,6 +19,7 @@ class DetailFragment : Fragment() {
     private lateinit var rbRate: RatingBar
     private lateinit var imgProduct: ImageView
     private lateinit var tvPrice: TextView
+    private lateinit var boton: Button
 
     // Traemos todas las views desde el layout
     override fun onCreateView(
@@ -30,6 +33,7 @@ class DetailFragment : Fragment() {
         rbRate = view.findViewById(R.id.rbRate)
         imgProduct = view.findViewById(R.id.imgProduct)
         tvPrice = view.findViewById(R.id.tvPrice)
+        boton = view.findViewById(R.id.button)
 
         return view
     }
@@ -43,5 +47,7 @@ class DetailFragment : Fragment() {
         tvPrice.text = product.price
 
     }
+
+
 
 }
