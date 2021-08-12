@@ -19,6 +19,9 @@
     <string name="send_email_forgot">Send</string>
     <string name="price_list">$1000</string>
     <string name="image_description">--</string>
+    <string name="descrition_item_contact">Descripción</string>
+    <string name="product_item_contact">Producto</string>
+
 
     <!-- Error messages -->
     <string name="error_fragment_message">Ocurrio un error</string>
