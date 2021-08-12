@@ -1,7 +1,5 @@
 package org.bedu.proyectobedu
 
-
-
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,7 +10,7 @@ class PrincipalActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_principal)
 
-        val listFragment = supportFragmentManager.findFragmentById(R.id.fragmentList) as ListFragment
+        val listFragment = supportFragmentManager.findFragmentById(R.id.fragmentList) as Listfragment
 
         listFragment.setListener{
             val detailFragment = supportFragmentManager.findFragmentById(R.id.fragmentDetail) as? DetailFragment

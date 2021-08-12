@@ -6,12 +6,13 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import com.google.android.material.button.MaterialButton
 
 class InicioActivity : AppCompatActivity() {
 
-    private lateinit var boton : Button
+    private lateinit var boton : MaterialButton
     private lateinit var nombre: EditText
-    private lateinit var contraseña : EditText
+    private lateinit var contrasena : EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,12 +20,12 @@ class InicioActivity : AppCompatActivity() {
 
         boton = findViewById(R. id.button)
         nombre = findViewById(R. id.name)
-        contraseña = findViewById(R.id.password)
+        contrasena = findViewById(R.id.password)
 
         boton.setOnClickListener{
             if(
                 nombre.text.toString() != "" &&
-                contraseña.text.toString() != ""){
+                contrasena.text.toString() != ""){
 
                 startActivity(Intent(this, PrincipalActivity::class.java))
             }

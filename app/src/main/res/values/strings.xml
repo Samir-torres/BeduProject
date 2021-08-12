@@ -16,6 +16,9 @@
     <string name="enter_email">Insert your email</string>
     <string name="Product">Product</string>
     <string name="Description_frag_detail">Description</string>
+    <string name="send_email_forgot">Send</string>
+    <string name="price_list">$1000</string>
+    <string name="image_description">--</string>
 
 
     <!-- Error messages -->

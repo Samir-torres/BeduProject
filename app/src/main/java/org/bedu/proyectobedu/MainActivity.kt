@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         boton2 = findViewById(R.id.button2)
         textView = findViewById(R.id.forgotpass)
 
+
         boton1.setOnClickListener{
 
             startActivity(Intent(this, InicioActivity::class.java))
