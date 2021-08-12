@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView"
         android:layout_width="129dp"
@@ -20,9 +19,9 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button"
+        style="@style/Bedu.Button"
         android:layout_width="228dp"
         android:layout_height="56dp"
-        style="@style/Bedu.Button"
         android:text="@string/btn_signup"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,9 +30,9 @@
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/forgotpass"
+        style="@style/Bedu.TextInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/Bedu.TextInputLayout"
         android:layout_marginTop="132dp"
         android:clickable="true"
         android:focusable="true"
@@ -42,15 +41,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.119"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.119" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button2"
+        style="@style/Bedu.Button"
         android:layout_width="228dp"
         android:layout_height="56dp"
         android:layout_marginTop="4dp"
-        style="@style/Bedu.Button"
         android:text="@string/btn_register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

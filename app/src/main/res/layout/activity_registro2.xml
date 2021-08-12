@@ -8,47 +8,50 @@
     android:orientation="vertical"
     tools:context=".activity_registro">
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="24dp"
         android:layout_marginTop="24dp"
-        android:drawableLeft="@drawable/user2"
+        android:drawableStart="@drawable/user2"
         android:drawablePadding="12dp"
         android:hint="@string/name"
-        android:inputType="text" />
+        android:inputType="text"
+        android:autofillHints="@string/name"/>
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="24dp"
         android:layout_marginTop="24dp"
-        android:drawableLeft="@drawable/phone"
+        android:drawableStart="@drawable/phone"
         android:drawablePadding="12dp"
         android:hint="@string/phone"
-        android:inputType="number"
-        android:maxLength="10" />
+        android:inputType="phone"
+        android:maxLength="10"
+        android:autofillHints="@string/phone" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="24dp"
         android:layout_marginTop="24dp"
-        android:drawableLeft="@drawable/email"
+        android:drawableStart="@drawable/email"
         android:drawablePadding="12dp"
         android:hint="@string/email"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:autofillHints="@string/email"/>
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="24dp"
         android:layout_marginTop="24dp"
-        android:drawableLeft="@drawable/lock"
+        android:drawableStart="@drawable/lock"
         android:drawablePadding="12dp"
         android:hint="@string/password"
         android:inputType="textPassword" />
@@ -57,15 +60,17 @@
         android:id="@+id/confirmPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/Bedu.TextInputLayout"
         android:layout_marginHorizontal="24dp"
         android:layout_marginTop="24dp"
-        android:drawableLeft="@drawable/lock"
+        android:drawableStart="@drawable/lock"
         android:drawablePadding="12dp"
         android:hint="@string/confirm_password"
         android:inputType="textPassword" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/button"
+        style="@style/Bedu.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/bnt_register_r2"

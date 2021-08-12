@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/detailView"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingVertical="16dp"
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/Product"
-        android:textSize="32sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Description_frag_detail"
-        android:textSize="18sp"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@id/tvProduct" />
 
@@ -37,8 +37,9 @@
 
     <ImageView
         android:id="@+id/imgProduct"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/image_description"
         android:src="@drawable/kobo"
         app:layout_constraintEnd_toEndOf="@id/guideline6"
         app:layout_constraintStart_toStartOf="@id/guideline5"
@@ -48,7 +49,7 @@
         android:id="@+id/tvPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="$1,000"
+        android:text="@string/price_list"
         android:textColor="#000"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -60,7 +61,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent=".05" />
+        app:layout_constraintGuide_percent=".00" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"

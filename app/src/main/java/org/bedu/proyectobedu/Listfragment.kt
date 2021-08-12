@@ -9,15 +9,15 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.fragment_list.*
 
-class ListFragment : Fragment() {
+class Listfragment : Fragment() {
 
     private lateinit var mAdapter: RecyclerAdapter
     private var listener: (Product) -> Unit = {}
 
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
+            inflater: LayoutInflater, container: ViewGroup?,
+            savedInstanceState: Bundle?
     ): View? {
         // infla el layout para este Fragment
         return inflater.inflate(R.layout.fragment_list, container, false)
@@ -25,28 +25,15 @@ class ListFragment : Fragment() {
 
     //generamos datos dummy con este método
     private fun getProducts(): MutableList<Product> {
-        var products: MutableList<Product> = ArrayList()
+        val products: MutableList<Product> = ArrayList()
 
-        products.add(
-            Product(
-                "Control ps5",
-                "Disponible el 20 de noviembre",
-                "$1400",
-                4.6f,
-                R.drawable.control
-            )
-        )
-        products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
-        products.add(Product("Lector Kobo", "Disponible Prime", "$2235", 3.8f, R.drawable.kobo))
-        products.add(
-            Product(
-                "Audífonos Sony xm3",
-                "Noise Cancelling",
-                "$6449",
-                4.8f,
-                R.drawable.xm3
-            )
-        )
+        products.add(Product("Pan","pan multigrano","$1.50",4.6f,R.drawable.bread))
+        products.add(Product("Queso", "manchego", "$98", 4.4f, R.drawable.chesse))
+        products.add(Product("Coca", "sin azucar", "$22", 3.8f, R.drawable.coca))
+        products.add(Product("Jugo","naranja","$6",4.8f,R.drawable.juice))
+        products.add(Product("Carne","puerco","$60",4.8f,R.drawable.meat))
+        products.add(Product("Leche","deslactosada","$49",4.8f,R.drawable.milk))
+        products.add(Product("Arroz","blanco","$40",4.8f,R.drawable.rice))
 
         return products
     }
