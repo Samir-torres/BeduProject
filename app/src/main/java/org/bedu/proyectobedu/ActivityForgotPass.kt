@@ -1,5 +1,6 @@
 package org.bedu.proyectobedu
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
@@ -19,11 +20,12 @@ class ActivityForgotPass : AppCompatActivity() {
         editText = findViewById(R.id.insert_email_forgotten)
 
         button.setOnClickListener {
-
-            Toast.makeText(applicationContext, "Se ha enviado correctamente", Toast.LENGTH_LONG).show()
+            if (editText.text.isEmpty()) {
+                Toast.makeText(applicationContext, "Ingresa tu correo electronico", Toast.LENGTH_LONG).show()
+            } else {
+                Toast.makeText(applicationContext, "Se ha enviado correctamente", Toast.LENGTH_LONG).show()
+                startActivity(Intent(this, MainActivity::class.java))
+            }
         }
-
     }
-
-
 }
