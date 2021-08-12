@@ -8,16 +8,17 @@
     android:orientation="vertical"
     tools:context=".InicioActivity">
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/welcome_act_inicio"
         android:textSize="28dp" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/Bedu.TextInputLayout"
         android:layout_marginHorizontal="24dp"
         android:layout_marginTop="24dp"
         android:drawableLeft="@drawable/user2"
@@ -25,13 +26,13 @@
         android:hint="@string/name"
         android:inputType="text"
         android:layout_marginLeft="12dp"
-        android:layout_marginRight="12dp"
-        />
+        android:layout_marginRight="12dp"        />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/Bedu.TextInputLayout"
         android:layout_marginHorizontal="24dp"
         android:layout_marginTop="24dp"
         android:drawablePadding="12dp"
@@ -42,8 +43,9 @@
         android:drawableLeft="@drawable/lock"
         />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/button"
+        style="@style/Bedu.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/enter"

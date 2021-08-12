@@ -28,8 +28,8 @@
         android:drawableLeft="@drawable/phone"
         android:drawablePadding="12dp"
         android:hint="@string/phone"
-        android:maxLength="10"
-        android:inputType="number" />
+        android:inputType="number"
+        android:maxLength="10" />
 
     <EditText
         android:id="@+id/email"
@@ -48,8 +48,8 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="24dp"
         android:layout_marginTop="24dp"
-        android:drawablePadding="12dp"
         android:drawableLeft="@drawable/lock"
+        android:drawablePadding="12dp"
         android:hint="@string/password"
         android:inputType="textPassword" />
 
@@ -59,9 +59,9 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="24dp"
         android:layout_marginTop="24dp"
+        android:drawableLeft="@drawable/lock"
         android:drawablePadding="12dp"
         android:hint="@string/confirm_password"
-        android:drawableLeft="@drawable/lock"
         android:inputType="textPassword" />
 
     <Button

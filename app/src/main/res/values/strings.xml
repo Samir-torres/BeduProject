@@ -14,6 +14,9 @@
     <string name="bnt_register_r2">Register</string>
     <string name="forgotpassword">Forgot password?</string>
     <string name="enter_email">Insert your email</string>
+    <string name="Product">Product</string>
+    <string name="Description_frag_detail">Description</string>
+
 
     <!-- Error messages -->
     <string name="error_fragment_message">An error occurred</string>
