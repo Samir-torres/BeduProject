@@ -26,7 +26,7 @@ class InicioActivity : AppCompatActivity() {
                 nombre.text.toString() != "" &&
                 contraseña.text.toString() != ""){
 
-                startActivity(Intent(this, TiendaActivity::class.java))
+                startActivity(Intent(this, PrincipalActivity::class.java))
             }
             else{
                 Toast.makeText(applicationContext, "No ha llenado todos los campos" , Toast.LENGTH_LONG).show()
