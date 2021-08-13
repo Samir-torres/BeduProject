@@ -21,7 +21,8 @@
     <string name="image_description">--</string>
     <string name="descrition_item_contact">Description</string>
     <string name="product_item_contact">Product</string>
-
+    <string name="tarjeta">Número de tarjeta</string>
+    <string name="confirmar">Confirmar compra</string>
 
     <!-- Error messages -->
     <string name="error_fragment_message">An error occurred</string>
