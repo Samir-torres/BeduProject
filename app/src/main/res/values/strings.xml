@@ -23,6 +23,23 @@
     <string name="product_item_contact">Product</string>
     <string name="tarjeta">Número de tarjeta</string>
     <string name="confirmar">Confirmar compra</string>
+    <string name="user_image_header">User</string>
+
+    <string name="delete">Borrar</string>
+    <string name="share">Compartir</string>
+
+    <string name="open_drawer">Abrir</string>
+    <string name="close_drawer">Cerrar</string>
+
+    <string name="cuenta">Acount</string>
+
+    <string name="drawer.payments">Pago</string>
+    <string name="drawer.home">Home</string>
+    <string name="drawer.settings">Configuración</string>
+    <string name="drawer.extra">Extra</string>
+    <string name="drawer.about">Acerca</string>
+    <string name="drawer.privacy">Privacidad</string>
+
 
     <!-- Error messages -->
     <string name="error_fragment_message">An error occurred</string>
