@@ -30,24 +30,20 @@ class MainActivity : AppCompatActivity() {
         textView = findViewById(R.id.forgotpass)
 
         boton1.setOnClickListener{
-
             startActivity(Intent(this, InicioActivity::class.java))
         }
-
         boton2.setOnClickListener{
-
             startActivity(Intent(this, activity_registro::class.java))
         }
-
         textView.setOnClickListener {
 
             startActivity(Intent(this, ActivityForgotPass::class.java))
         }
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.toolbar_menu, menu)
+
         return super.onCreateOptionsMenu(menu)
     }
 
