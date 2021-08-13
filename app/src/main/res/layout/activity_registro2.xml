@@ -8,6 +8,12 @@
     android:orientation="vertical"
     tools:context=".activity_registro">
 
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese sus datos"
+        android:textSize="28dp" />
+
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/name"
         android:layout_width="match_parent"
@@ -60,7 +66,6 @@
         android:id="@+id/confirmPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/Bedu.TextInputLayout"
         android:layout_marginHorizontal="24dp"
         android:layout_marginTop="24dp"
         android:drawableStart="@drawable/lock"
