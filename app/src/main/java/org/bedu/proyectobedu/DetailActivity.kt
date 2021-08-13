@@ -1,6 +1,7 @@
 package org.bedu.proyectobedu
 
 
+
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -14,6 +15,7 @@ class DetailActivity : AppCompatActivity() {
 
     private lateinit var boton: Button
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
@@ -24,13 +26,11 @@ class DetailActivity : AppCompatActivity() {
             detailFragment?.showProduct(product)
         }
 
-        boton = findViewById(R.id.button)
+        boton = findViewById(R.id.button6)
 
         boton.setOnClickListener{
-
             startActivity(Intent(this, BuyActivity::class.java))
         }
-
 
     }
 }
